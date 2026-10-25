@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.INVENTARIO" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/verde_principal</item>
+        <item name="colorOnPrimary">@color/verde_sobre</item>
+        <item name="colorPrimaryContainer">@color/verde_suave</item>
+        <item name="colorOnPrimaryContainer">@color/verde_suave_texto</item>
+        <item name="colorSecondary">@color/ambar</item>
+        <item name="colorSecondaryContainer">@color/ambar_suave</item>
+        <item name="colorOnSecondaryContainer">@color/ambar_suave_texto</item>
+        <item name="android:colorBackground">@color/fondo</item>
+        <item name="colorSurface">@color/fondo</item>
+        <item name="colorOnSurface">@color/texto</item>
+        <item name="colorSurfaceVariant">@color/variante</item>
+        <item name="colorOnSurfaceVariant">@color/texto_variante</item>
+        <item name="colorOutline">@color/borde</item>
+        <item name="colorOutlineVariant">@color/borde_suave</item>
+        <item name="colorSurfaceContainerLowest">@color/contenedor_bajo</item>
+        <item name="colorSurfaceContainerLow">@color/contenedor_bajo</item>
+        <item name="colorSurfaceContainer">@color/contenedor</item>
+        <item name="colorSurfaceContainerHigh">@color/contenedor_alto</item>
+        <item name="colorSurfaceContainerHighest">@color/contenedor_alto</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorErrorContainer">@color/error_suave</item>
+        <item name="colorOnErrorContainer">@color/error_suave_texto</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.INVENTARIO" parent="Base.Theme.INVENTARIO" />
+
+    <style name="Texto.Titulo" parent="">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="Texto.Seccion" parent="">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="Texto.Etiqueta" parent="">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+
+    <style name="Tarjeta" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">?attr/colorSurfaceContainerLowest</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">?attr/colorOutlineVariant</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+</resources>

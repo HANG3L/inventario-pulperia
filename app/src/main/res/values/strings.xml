@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Mi Pulpería</string>
+
+    <string name="nav_resumen">Resumen</string>
+    <string name="nav_productos">Productos</string>
+    <string name="nav_movimientos">Movimientos</string>
+
+    <string name="resumen_titulo">Resumen</string>
+    <string name="resumen_subtitulo">Así va tu pulpería hoy</string>
+    <string name="valor_total">Valor total del inventario</string>
+    <string name="etiqueta_productos">Productos</string>
+    <string name="etiqueta_unidades">Unidades</string>
+    <string name="etiqueta_stock_bajo">Stock bajo</string>
+    <string name="alerta_titulo_plural">%1$d productos con stock bajo</string>
+    <string name="alerta_titulo_uno">1 producto con stock bajo</string>
+    <string name="top_titulo">Top 5 por valor</string>
+    <string name="top_vacio">Aún no hay productos. Agrega el primero en la pestaña Productos.</string>
+    <string name="top_detalle">%1$d uds × %2$s</string>
+
+    <string name="productos_titulo">Productos</string>
+    <string name="buscar_hint">Buscar por nombre o código</string>
+    <string name="nuevo_producto">Nuevo producto</string>
+    <string name="productos_vacio">No hay productos todavía.\nToca «Nuevo producto» para empezar.</string>
+    <string name="productos_sin_resultados">Nada coincide con tu búsqueda.</string>
+    <string name="uds">uds</string>
+    <string name="codigo_item">Código %1$s</string>
+    <string name="sin_codigo">Sin código</string>
+    <string name="chip_bajo">Bajo</string>
+
+    <string name="form_titulo_nuevo">Nuevo producto</string>
+    <string name="form_titulo_editar">Editar producto</string>
+    <string name="campo_nombre">Nombre</string>
+    <string name="campo_precio">Precio</string>
+    <string name="campo_stock">Stock actual</string>
+    <string name="campo_stock_minimo">Stock mínimo</string>
+    <string name="campo_stock_minimo_ayuda">Se avisa cuando llegue a este número</string>
+    <string name="campo_codigo">Código de barras (opcional)</string>
+    <string name="guardar">Guardar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aceptar">Entendido</string>
+    <string name="error_nombre">Escribe el nombre</string>
+    <string name="error_precio">Precio no válido</string>
+    <string name="error_stock">Stock no válido</string>
+    <string name="error_stock_minimo">Valor no válido</string>
+    <string name="error_codigo_repetido">Ese código ya pertenece a «%1$s»</string>
+    <string name="producto_guardado">Producto guardado</string>
+    <string name="producto_eliminado">Producto eliminado</string>
+    <string name="eliminar_titulo">¿Eliminar producto?</string>
+    <string name="eliminar_mensaje">Se borrará «%1$s» y todo su historial de movimientos.</string>
+
+    <string name="movimientos_titulo">Movimientos</string>
+    <string name="filtro_todos">Todos</string>
+    <string name="filtro_entradas">Entradas</string>
+    <string name="filtro_salidas">Salidas</string>
+    <string name="registrar_movimiento">Registrar</string>
+    <string name="movimientos_vacio">Aún no hay movimientos.\nRegistra una entrada o una salida.</string>
+    <string name="mov_titulo_form">Registrar movimiento</string>
+    <string name="entrada">Entrada</string>
+    <string name="salida">Salida</string>
+    <string name="campo_producto">Producto</string>
+    <string name="campo_codigo_buscar">Buscar por código de barras</string>
+    <string name="campo_cantidad">Cantidad</string>
+    <string name="stock_actual_info">Stock actual: %1$d uds</string>
+    <string name="error_producto">Elige un producto</string>
+    <string name="error_cantidad">Cantidad no válida</string>
+    <string name="error_sin_stock">Solo hay %1$d uds disponibles</string>
+    <string name="entrada_registrada">Entrada registrada: +%1$d</string>
+    <string name="salida_registrada">Salida registrada: -%1$d</string>
+    <string name="sin_productos_mov">Primero crea un producto en la pestaña Productos.</string>
+    <string name="alerta_stock_titulo">Stock bajo</string>
+    <string name="alerta_stock_mensaje">«%1$s» quedó con %2$d uds. Conviene reponerlo pronto.</string>
+</resources>
